@@ -21,7 +21,7 @@
         {{! Everything inside the #post tags pulls data from the post }}
         {{#post}}
 
-            <span class="post-meta"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD MMM YYYY'}}</time> {{tags prefix="on " separator=" | "}}</span>
+            <span class="post-meta"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD/MM/YYYY'}}</time> {{tags prefix="em " separator=" | "}}</span>
 
             <h1 class="post-title">{{{title}}}</h1>
 
@@ -41,7 +41,7 @@
                 </section>
 
                 <section class="share">
-                    <h4>Share this post</h4>
+                    <h4>Compartilhar</h4>
                     <a class="icon-twitter" href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}"
                         onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                         <span class="hidden">Twitter</span>
