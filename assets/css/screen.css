@@ -250,16 +250,6 @@ p, ul, ol, dl {
     margin: 0 0 1.7em 0;
 }
 
-ol, ul {
-    padding-left: 0;
-}
-
-ol ol, ul ul,
-ul ol, ol ul {
-    margin: 0 0 0.4em 0;
-    padding-left: 2em;
-}
-
 dl dt {
     float: left;
     width: 180px;
